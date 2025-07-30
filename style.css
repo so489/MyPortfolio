@@ -255,3 +255,30 @@ footer {
   font-size: 0.95rem;
   line-height: 1.6;
 }
+.project-card {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 15px;
+  overflow: hidden;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+  transition: all 0.4s ease-in-out;
+  backdrop-filter: blur(10px);
+}
+
+.project-card:hover {
+  transform: translateY(-10px) scale(1.05);
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 10px 30px rgba(21, 250, 238, 0.4);
+}
+
+.project-card img {
+  width: 100%;
+  display: block;
+  transition: transform 0.4s ease-in-out;
+}
+
+/* Zoom the image slightly on hover */
+.project-card:hover img {
+  transform: scale(1.08);
+}
