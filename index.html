@@ -869,6 +869,7 @@
       padding: 20px;
     }
 
+<<<<<<< HEAD
     /* Security Modal Styles */
     .security-modal {
       position: fixed;
@@ -1023,6 +1024,8 @@
       50% { transform: scale(1.1); }
     }
 
+=======
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
     /* Responsive Design */
     @media (max-width: 992px) {
       .hero h2 {
@@ -1133,6 +1136,7 @@
   </style>
 </head>
 <body>
+<<<<<<< HEAD
   <!-- Security Modal -->
   <div id="security-modal" class="security-modal">
     <div class="modal-content">
@@ -1157,6 +1161,8 @@
     <span>Access Granted – Session Logged Securely</span>
   </div>
 
+=======
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
   <!-- Navbar -->
   <header id="header">
     <nav>
@@ -1341,7 +1347,11 @@
       <!-- Internship 1 -->
       <div class="internship-card" data-aos="fade-up" data-aos-delay="100">
         <div class="internship-img">
+<<<<<<< HEAD
           <img src="un.png" alt="Web Development Internship">
+=======
+          <img src="coming soon.jpg" alt="Web Development Internship">
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
         </div>
         <div class="internship-info">
           <div class="internship-badge">
@@ -1364,7 +1374,11 @@
       <!-- Internship 2 -->
       <div class="internship-card" data-aos="fade-up" data-aos-delay="200">
         <div class="internship-img">
+<<<<<<< HEAD
           <img src="tdo.png" alt="Cybersecurity Internship">
+=======
+          <img src="coming soon.jpg" alt="Cybersecurity Internship">
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
         </div>
         <div class="internship-info">
           <div class="internship-badge">
@@ -1380,7 +1394,11 @@
             <span>Ethical Hacking</span>
             <span>Kali Linux</span>
           </div>
+<<<<<<< HEAD
           <a href="tdo certificate.pdf" class="btn btn-small" target="_blank">View Certificate</a>
+=======
+          <a href="cyber-intern-certificate.pdf" class="btn btn-small" target="_blank">View Certificate</a>
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
         </div>
       </div>
 
@@ -1580,12 +1598,16 @@
   </div>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<<<<<<< HEAD
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script>
     // Initialize EmailJS with your public key
     // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
     emailjs.init('YOUR_PUBLIC_KEY');
 
+=======
+  <script>
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
     // Initialize AOS animation library
     AOS.init({
       duration: 800,
@@ -1671,6 +1693,7 @@
       });
     });
 
+<<<<<<< HEAD
     // Security Modal Functionality
     const securityModal = document.getElementById('security-modal');
     const allowBtn = document.getElementById('allow-access');
@@ -1711,6 +1734,8 @@
       window.location.href = 'warning.html';
     });
 
+=======
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
     // Enhanced certificate interaction
     document.querySelectorAll('.cert-card, .internship-card').forEach(card => {
       card.addEventListener('click', function(e) {
@@ -1719,7 +1744,11 @@
           const imgSrc = this.querySelector('.cert-img img')?.src || this.querySelector('.internship-img img').src;
           const title = this.querySelector('h3').textContent;
           const issuer = this.querySelector('.cert-meta p, .internship-meta p')?.textContent.replace('Issued by: ', '').replace('Company: ', '') || '';
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
           const modal = document.createElement('div');
           modal.className = 'cert-modal';
           modal.innerHTML = `
@@ -1735,13 +1764,21 @@
           `;
           document.body.appendChild(modal);
           document.body.style.overflow = 'hidden';
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
           // Close modal
           modal.querySelector('.cert-close').addEventListener('click', () => {
             document.body.removeChild(modal);
             document.body.style.overflow = 'auto';
           });
+<<<<<<< HEAD
 
+=======
+          
+>>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
           // Close when clicking outside
           modal.addEventListener('click', (e) => {
             if (e.target === modal) {
