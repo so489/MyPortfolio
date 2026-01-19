@@ -869,163 +869,6 @@
       padding: 20px;
     }
 
-<<<<<<< HEAD
-    /* Security Modal Styles */
-    .security-modal {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(0, 0, 0, 0.9);
-      backdrop-filter: blur(10px);
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      z-index: 10000;
-      animation: fadeIn 0.5s ease-out;
-    }
-
-    .modal-content {
-      background: linear-gradient(135deg, #1a1a1a 0%, #0e0e0e 100%);
-      border-radius: 20px;
-      padding: 40px;
-      max-width: 500px;
-      width: 90%;
-      text-align: center;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.8);
-      border: 1px solid rgba(0, 247, 255, 0.2);
-      animation: slideUp 0.5s ease-out;
-    }
-
-    .modal-header {
-      margin-bottom: 30px;
-    }
-
-    .modal-icon {
-      font-size: 4rem;
-      color: var(--primary);
-      margin-bottom: 20px;
-      animation: pulse 2s infinite;
-    }
-
-    .modal-header h2 {
-      color: var(--primary);
-      font-size: 2rem;
-      margin: 0;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-    }
-
-    .modal-body p {
-      color: var(--gray);
-      font-size: 1.1rem;
-      line-height: 1.6;
-      margin-bottom: 15px;
-    }
-
-    .modal-body p:first-child {
-      color: var(--light);
-      font-weight: 600;
-      font-size: 1.2rem;
-    }
-
-    .modal-buttons {
-      display: flex;
-      gap: 20px;
-      justify-content: center;
-      margin-top: 30px;
-    }
-
-    .btn-allow, .btn-deny {
-      padding: 15px 30px;
-      border: none;
-      border-radius: 50px;
-      font-weight: 600;
-      font-size: 1rem;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      cursor: pointer;
-      transition: all 0.3s ease;
-      font-family: 'Poppins', sans-serif;
-      min-width: 160px;
-    }
-
-    .btn-allow {
-      background: linear-gradient(135deg, #00f7ff 0%, #15ccfa 100%);
-      color: #000;
-      box-shadow: 0 5px 15px rgba(0, 247, 255, 0.3);
-    }
-
-    .btn-allow:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(0, 247, 255, 0.5);
-    }
-
-    .btn-deny {
-      background: linear-gradient(135deg, #ff4444 0%, #cc3333 100%);
-      color: #fff;
-      box-shadow: 0 5px 15px rgba(255, 68, 68, 0.3);
-    }
-
-    .btn-deny:hover {
-      transform: translateY(-3px);
-      box-shadow: 0 8px 25px rgba(255, 68, 68, 0.5);
-    }
-
-    /* Success Toast */
-    .success-toast {
-      position: fixed;
-      top: 20px;
-      right: 20px;
-      background: linear-gradient(135deg, #00f7ff 0%, #15ccfa 100%);
-      color: #000;
-      padding: 15px 25px;
-      border-radius: 50px;
-      box-shadow: 0 5px 15px rgba(0, 247, 255, 0.3);
-      display: flex;
-      align-items: center;
-      gap: 10px;
-      font-weight: 600;
-      z-index: 10001;
-      transform: translateX(100%);
-      transition: transform 0.5s ease;
-      opacity: 0;
-    }
-
-    .success-toast.show {
-      transform: translateX(0);
-      opacity: 1;
-    }
-
-    .success-toast i {
-      font-size: 1.2rem;
-    }
-
-    /* Modal Animations */
-    @keyframes fadeIn {
-      from { opacity: 0; }
-      to { opacity: 1; }
-    }
-
-    @keyframes slideUp {
-      from {
-        opacity: 0;
-        transform: translateY(50px) scale(0.9);
-      }
-      to {
-        opacity: 1;
-        transform: translateY(0) scale(1);
-      }
-    }
-
-    @keyframes pulse {
-      0%, 100% { transform: scale(1); }
-      50% { transform: scale(1.1); }
-    }
-
-=======
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
     /* Responsive Design */
     @media (max-width: 992px) {
       .hero h2 {
@@ -1136,33 +979,6 @@
   </style>
 </head>
 <body>
-<<<<<<< HEAD
-  <!-- Security Modal -->
-  <div id="security-modal" class="security-modal">
-    <div class="modal-content">
-      <div class="modal-header">
-        <i class="fas fa-shield-alt modal-icon"></i>
-        <h2>Security Notice</h2>
-      </div>
-      <div class="modal-body">
-        <p>This portfolio is protected.</p>
-        <p>By clicking ALLOW, you consent to basic access logging (date, time, browser, device type). No personal data is collected.</p>
-      </div>
-      <div class="modal-buttons">
-        <button id="allow-access" class="btn-allow">ALLOW ACCESS</button>
-        <button id="deny-access" class="btn-deny">DENY ACCESS</button>
-      </div>
-    </div>
-  </div>
-
-  <!-- Success Toast -->
-  <div id="success-toast" class="success-toast">
-    <i class="fas fa-check-circle"></i>
-    <span>Access Granted – Session Logged Securely</span>
-  </div>
-
-=======
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
   <!-- Navbar -->
   <header id="header">
     <nav>
@@ -1347,11 +1163,7 @@
       <!-- Internship 1 -->
       <div class="internship-card" data-aos="fade-up" data-aos-delay="100">
         <div class="internship-img">
-<<<<<<< HEAD
-          <img src="un.png" alt="Web Development Internship">
-=======
           <img src="coming soon.jpg" alt="Web Development Internship">
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
         </div>
         <div class="internship-info">
           <div class="internship-badge">
@@ -1374,11 +1186,7 @@
       <!-- Internship 2 -->
       <div class="internship-card" data-aos="fade-up" data-aos-delay="200">
         <div class="internship-img">
-<<<<<<< HEAD
-          <img src="tdo.png" alt="Cybersecurity Internship">
-=======
           <img src="coming soon.jpg" alt="Cybersecurity Internship">
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
         </div>
         <div class="internship-info">
           <div class="internship-badge">
@@ -1394,11 +1202,7 @@
             <span>Ethical Hacking</span>
             <span>Kali Linux</span>
           </div>
-<<<<<<< HEAD
-          <a href="tdo certificate.pdf" class="btn btn-small" target="_blank">View Certificate</a>
-=======
           <a href="cyber-intern-certificate.pdf" class="btn btn-small" target="_blank">View Certificate</a>
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
         </div>
       </div>
 
@@ -1598,16 +1402,7 @@
   </div>
 
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<<<<<<< HEAD
-  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
   <script>
-    // Initialize EmailJS with your public key
-    // Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key
-    emailjs.init('YOUR_PUBLIC_KEY');
-
-=======
-  <script>
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
     // Initialize AOS animation library
     AOS.init({
       duration: 800,
@@ -1693,49 +1488,6 @@
       });
     });
 
-<<<<<<< HEAD
-    // Security Modal Functionality
-    const securityModal = document.getElementById('security-modal');
-    const allowBtn = document.getElementById('allow-access');
-    const denyBtn = document.getElementById('deny-access');
-    const successToast = document.getElementById('success-toast');
-
-    // Show modal on page load
-    window.addEventListener('load', () => {
-      securityModal.style.display = 'flex';
-      document.body.style.overflow = 'hidden';
-    });
-
-    // Allow access
-    allowBtn.addEventListener('click', () => {
-      // Log session data
-      const sessionData = {
-        date: new Date().toLocaleDateString(),
-        time: new Date().toLocaleTimeString(),
-        browser: navigator.userAgent,
-        deviceType: /Mobile|Android|iP(hone|od|ad)/.test(navigator.userAgent) ? 'Mobile' : 'Desktop'
-      };
-
-      console.log('Session Logged:', sessionData);
-
-      // Hide modal and show toast
-      securityModal.style.display = 'none';
-      document.body.style.overflow = 'auto';
-      successToast.classList.add('show');
-
-      // Hide toast after 3 seconds
-      setTimeout(() => {
-        successToast.classList.remove('show');
-      }, 3000);
-    });
-
-    // Deny access
-    denyBtn.addEventListener('click', () => {
-      window.location.href = 'warning.html';
-    });
-
-=======
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
     // Enhanced certificate interaction
     document.querySelectorAll('.cert-card, .internship-card').forEach(card => {
       card.addEventListener('click', function(e) {
@@ -1744,11 +1496,7 @@
           const imgSrc = this.querySelector('.cert-img img')?.src || this.querySelector('.internship-img img').src;
           const title = this.querySelector('h3').textContent;
           const issuer = this.querySelector('.cert-meta p, .internship-meta p')?.textContent.replace('Issued by: ', '').replace('Company: ', '') || '';
-<<<<<<< HEAD
-
-=======
           
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
           const modal = document.createElement('div');
           modal.className = 'cert-modal';
           modal.innerHTML = `
@@ -1764,21 +1512,13 @@
           `;
           document.body.appendChild(modal);
           document.body.style.overflow = 'hidden';
-<<<<<<< HEAD
-
-=======
           
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
           // Close modal
           modal.querySelector('.cert-close').addEventListener('click', () => {
             document.body.removeChild(modal);
             document.body.style.overflow = 'auto';
           });
-<<<<<<< HEAD
-
-=======
           
->>>>>>> 548854f07d2b531aa9b239d153401bb633079d6e
           // Close when clicking outside
           modal.addEventListener('click', (e) => {
             if (e.target === modal) {
